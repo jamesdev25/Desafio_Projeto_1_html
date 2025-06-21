@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 👨🏻‍💻 Desafio de Projeto 1:</title>
+</head>
+<body>
+    <h1>Criando uma Página Web 📑🌐 com as tags aprendidas</h1>
+    <p>Este desafio de projeto foi proposto pelo 👨🏻‍🏫 professor: <a href="https://www.linkedin.com/in/diogomainardes/" target="_blank">Diogo Medeiros Mainardes</a> durante a formação <a href="https://www.dio.me/bootcamp/html-web-developer" target="_blank">HTML Web Developer (DIO)</a> e reutilizada no Bootcamp Santander 2025 - Front-End (Dio + Santander Academy). O desafio consiste em criar uma página web informativa que descreva sobre o conteúdo que foi aprendido no curso (Introdução ao HTML na prática), usando palavras próprias baseada no entendimento do aluno.</p>
+        <p><b>Principais conceitos:</b></p>
+            <ul>    
+                <li>Introdução a Programação Web;</li>
+                <li>Navegadores e Inspetor de Elementos;</li>
+                <li>Estrutura básica do HTML;</li>
+                <li>Tags, atributos e valores;</li>
+                <li>Texto;</li>
+                <li>Lista ordenada e não ordenada;</li>
+                <li>Links.</li>
+            </ul>
+        <p><b>Estrutura básica do HTML:</b></p>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="pt-BR"&gt;
+        &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;Título da Página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;h1&gt;Exemplo de Estrutura HTML&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><b>Principais tags:</b></p>
+        <ul>
+            <li>h1 ... h6</li>
+            <li>input</li>
+            <li>img</li>
+            <li>p</li>
+            <li>a</li>
+            <li>ul</li>
+            <li>ol</li>
+        </ul>
+    <p><b>Atributos:</b></p>
+            <ul>
+                <li>class</li>
+                <li>id</li>
+                <li>src</li>
+                <li>style</li>
+                <li>alt</li>
+            </ul>
+    <p><b>Ferramentas usadas neste curso:</b></p>
+            <ul>
+                <li>Visual Studio Code;</li>
+                <li>Live Server;</li>   
+                <li>Navegadores.</li>
+            </ul>
+    <h2>🧠 Conceitos:</h2>
+    <h3>🕵🏻 Inspecionar Elementos: </h3>
+                <p>O "<b>inspecionar elementos</b>" é uma ferramenta disponível nos navegadores web, é usada para exibir a forma que foi desenvolvida o HTML da página em questão. Ela pode ser acessada no navegador pela tecla de atalho <i>F12</i> ou por meio do menu de opções (clicando com o lado direito do mouse). Essa ferramenta também permite que o usuário/cliente manipule a visualização que está sendo exibida, entretanto, as alterações feitas nesta opção não alteram o HTML da página em questão, apenas a visualização do cliente é modificada, sem atualizar a página.</p>
+    <h3>🌐 Estrutura HTML:</h3>
+            <p>Todas as tags que compõe a estrutura base são obrigatorias e aparecem em qualquer documento html.</p>
+            <p>O &lt;!DOCTYPE html&gt; é responsável por fazer a declaração do tipo de documento (HTML5) para o navegador.</p>
+            <p>A tag &lt;html&gt; é a tag raiz que envolve todo o conteúdo da página.</p>
+            <p>O &lt;head&gt; é usado para conter informações importantes ao usuário como titulo da página (titulo da aba do nevegador) inserida por meio da tag &lt;title&gt;,  assim, como também pode conter "metadados" (<i>informações que não são visiveis ao usuário</i> ex: <i>links para arquivos internos, scripts, configurações </i> etc.).</p>
+            <p>A tag &lt;body&gt; comporta a Parte principal do documento, onde ficam os elementos visíveis (textos, imagens, links, etc.).</p>
+    <h3>🔖 Tags:</h3>
+            <p>As demais tags tem atribuições diferentes, sendo uteis para diversos fins.</p>
+            <p><b>h1 - h6:</b></p>
+                <p>As tags <b>h1 - h6</b> são usadas para destacar texto, o seu uso se dá por um sistema hieraquico de prioridades, tendo h1 o nível máximo de prioridade, e o h6 o minimo, mas, o que isso significa afinal? Quanto maior a prioridade mais destaque o texto terá, com isso: tamanho da fonte, tamanho do contorno, porcentagem de negrito e porcentagem de coloração serão sempre maiores nos textos em que a tag <b>>h</b> for mais próxima de "0" (zero). Assim sendo, o h1 é muito usado no titulo principal das páginas web.</p>
+            <p><b>input:</b></p>
+                <p>A tag &lt;input&gt; cria um campo de entrada de valores, que por padrão, tem o formato de uma caixa retangular que recebe valores em texto (a, b, c, d, 1, 2 3, 4, . + - * etc.) isso é chamado de string, e é o principal tipo de dados manipulaveis na programação. O seu uso é muito comum em formularios web, pois permite a coleta de dados de informações pertinentes aos usuários (nome, idade, endereço, e-mail, etc...) seja para uma pesquisa de mercado, cadastramento online ou criação de conta etc. Outro detalhe interessante sobre essa tag é que ela não possui uma tag de fechamento (maior que + / + menor que); exemplo de outras tags como: <i>>title</i>, head, body, html etc. sua tag é fechada em si mesmo tendo a barra direita dentro da própria tag de entrada, isso não é exclusivo dessa tag conforme veremos abaixo.</p>
+                <ul>
+                    <li>h1</li>
+                    <li>h2</li>
+                    <li>h3</li>
+                    <li>h4</li>
+                    <li>h5</li>
+                    <li>h6</li>
+                </ul>
+            <p><b>img:</b></p>
+                <p>A tag &lt;img&gt; assim como a input não possui uma tag de fechamento separada, ela também é fechada e si mesmo. Ela é a principal tag para inserção de imagens em um documento html. Ela possui 2 atributos (falaremos mais sobre eles mais a frente) obrigatórios: O <b>src</b> (recebe a caminho/url da imagem) e o <b>alt</b> (<i>insere um texto informativo sobre a imagem</i>).</p>
+            <p><b>p:</b></p>
+                <p>A tag &lt;p&gt; é muito comum no desenvolvimento web, pois ela é a responsável pelo uso de paragrafos no html, com isso entende-se o valor da sua importância, tendo em vista o seu uso em sites que usam bastante textos, como jornais, blogs, e etc.</p>
+            <p><b>a:</b></p>
+                <p>A tag &lt;a&gt; (âncora) é a principal tag para uso de hiperlinks no html, ela cria hiperlinks para navegar entre páginas ou recursos. Por meio do atributo "href:" (usado para receber o valor da url) é possivel navegar entre páginas na web por meio do redirecionamento de endereços ip. Outro conceito importante sobre a tag de âncora, é que ela permite a aplicação de "ancoragem", isto é, a navegação por pontos chaves dentro da mesma página (ex: navegação por parágrafos especificos em um jornal online com muitos parágrafos).</p>
+            <p><b>ul:</b></p>
+                <p>A tag &lt;ul&gt; é usada para a criação de listas não ordenadas, isto é, que não possuem uma ordem sequencial númerica. Esse tipo é listada com um ponto (bola preta) por padrão (isso pode ser alterado por meio do CSS).</p>
+            <p><b>ol:</b></p>
+                <p>Enquanto que a tag &lt;ol&gt;  é usada em sequencias númericas com grau de importancia na ordem dos fatores. Esse tipo de lista utiliza por padrão um sequencial númerico (pode ser alterado por CSS).</p>
+    <h3>🗝 Atributos:</h3>
+            <p>Os atributos são propriedades adicionadas a uma tag/elemento para modificar seu comportamento ou aparência, eles são definidos dentro da <b>tag de abertura</b> &lt;tag&gt;.</p>
+        <p><b>Principais Atributos Básicos:</b></p>
+            <ul>
+                <li>id</li>
+                <li>class</li>
+                <li>src</li>
+                <li>style</li>
+                <li>alt</li>
+            </ul>
+        <p><b>id:</b></p>
+            <p>O atributo <i>id</i> é usado como um identificador único para um elemento HTML, com esse identificador é possivel fazer várias modificações nos elementos via CSS e JavaScript.</p>
+        <p><b>class:</b></p>
+            <p>O atributo <i>class</i> é usado para agrupar elementos, isso permite a aplicação de estilos (CSS) em vários elementos ou compartilhar comportamentos entre eles. Seu uso pode se dá em vários elementos na mesma página. Além, de aceitar múltiplas classes (separadas por espaço).</p>
+        <p><b>src:</b></p>
+            <p>O atributo <i>src</i> é exclusivamente usado na tag <i>img</i>, e é usado para receber o caminho da url, seja do computador local (C:\Users\james\OneDrive\Área de Trabalho) ou de um servidor web (ex: https://tinyurl.com/2wvuvd9n).</p>
+        <p><b>style:</b></p>
+            <p>O atributo <i>style</i> é uma forma básica de estilizar elementos html sem a necessidade do uso de um arquivo CSS, entretanto, seu uso não é recomendado em grande escala, pois, isso dificulta a manutenção do código.</p>
+        <p><b>alt:</b></p>
+            <p>O atributo <i>alt</i> é um recurso para criar texto alternativo para elementos (ex: img). É muito usado em descrições de imagens para leitores de tela (IA que lê texto de páginas), isto é, uma excelente ferramenta de acessibilidade usado por deficientes visuais. Também é utilizada como mensagem de alerta, em caso de erro no carregamento da imagem.</p>
+    <h2>👨🏻‍💻 Sobre o Autor:</h2>
+        <p>Me chamo James, sou natural da cidade de Parazinho no interior do RN. Tenho 31 anos, sou técnico em informatica e comecei a estudar programação em 2025. Busco obter mais conhecimento por meio do estudo na área da tecnologia, e me capacitar para ser um profissional da área cada vez mais competente. Gosto de animes, jogos e futebol.</p>
+    <p><b>Redes Sociais:</b></p>
+        <ul>
+            <li>👔 <a href="https://www.linkedin.com/in/james-fonseca-545810b8/" target="_blank">Linkedin</a></li>
+            <li>💼 <a href="https://github.com/jamesdev25" target="_blank">Github</a></li>
+            <li>👤 <a href="https://www.dio.me/users/jamesfs26" target="_blank">Instagram</a></li>
+            <li>📚 <a href="https://www.dio.me/users/jamesfs26" target="_blank">Dio</a></li>
+            <li>🎮 <a href="https://steamcommunity.com/profiles/76561199036881569/" target="_blank">Steam</a></li>
+            <li>🎌 <a href="https://myanimelist.net/profile/james_Fonseca" target="_blank">My Anime List</a></li>
+        </ul>
+</body>
+</html>
