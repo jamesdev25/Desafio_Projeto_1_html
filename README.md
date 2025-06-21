@@ -26,13 +26,13 @@ Este desafio de projeto foi proposto pelo 👨🏻‍🏫 professor: [Diogo Mede
     </html>
 
 **Principais tags:**
-- <h1> ... <h6>
-- <input>
-- <img>
-- <p>
-- <a>
-- <ul>
-- <ol>
+- h1 ... h6
+- input
+- img
+- p
+- a
+- ul
+- ol
 
 **Atributos:**
 - id
