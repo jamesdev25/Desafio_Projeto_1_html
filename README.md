@@ -74,12 +74,12 @@ As tags **h1 - h6** são usadas para destacar texto, o seu uso se dá por um sis
 **Input:**  
 A tag <input/> cria um campo de entrada de valores, que por padrão, tem o formato de uma caixa retangular que recebe valores em texto (a, b, c, d, 1, 2 3, 4, . + - * etc.) isso é chamado de string, e é o principal tipo de dados manipulaveis na programação. O seu uso é muito comum em formularios web, pois permite a coleta de dados de informações pertinentes aos usuários (nome, idade, endereço, e-mail, etc...) seja para uma pesquisa de mercado, cadastramento online ou criação de conta etc. Outro detalhe interessante sobre essa tag é que ela não possui uma tag de fechamento </> exemplo de outras tags como: *title, head, body, html etc. sua tag é fechada em si mesmo tendo a barra direita dentro da própria tag de entrada, isso não é exclusivo dessa tag conforme veremos abaixo.
 
-* <h1>
-* <h2>
-* <h3>
-* <h4>
-* <h5>
-* <h6>
+* h1
+* h2
+* h3
+* h4
+* h5
+* h6
 
 **img:**    
 A tag <img> assim como a input não possui uma tag de fechamento separada, ela também é fechada e si mesmo. Ela é a principal tag para inserção de imagens em um documento html. Ela possui 2 atributos (falaremos mais sobre eles mais a frente) obrigatórios: O **src** (*recebe a caminho/url da imagem*) e o **alt** (*insere um texto informativo sobre a imagem*).
